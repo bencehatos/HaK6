@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<title>HA-K6 - Bence Hatos</title>
+</head>
+<body>
+	<h3>Tabelle-Semantic</h3>
+	<form>
+	<fieldset>
+	<legend>Fieldset-Überschrift</legend>
+	
+	<table><caption>Semantic Tabelle</caption>
+		<thead>
+			<tr><td><h4>Was halt so erwartet wird!</h4></td></tr>
+		</thead>
+	<tbody>
+		<tr>
+			<td>Tags</td>
+			<td>Beschreibung</td>
+			<td>inline/block</td>
+			<td>Semantisch?</td>	
+		</tr>
+		<tr>
+			<td><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88"></img></a></td>
+			<td>Anker</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		<td><abbr>Ich kürze hier was ab oder was?</abbr></td>
+			<td>Abkürzung</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><acronym>das ist ein Acronym</acronym></td>
+			<td>Acronym</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><address>www.iversity.org</address></td>
+			<td>Kontaktangabe zum Autor eines Inhalts(Credits)</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>area-tag </td>
+			<td>Verweis Sensitiver Bereich in einer Image-Map Grafik</td>
+			<td></td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><b>Hervorhebung</b></td>
+			<td>Stilistische hervorhebung im Text (üblicher weise fett dargestellt)</td>
+			<td>block</td>
+			<td>nein</td>	
+		</tr>
+		<tr>
+		    <td></td>
+			<td>Basis-URL für Referenzen</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>bdo</td>
+			<td>Richtungsänderung bei Bidirektionalem Text</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><big>Großschrift</big></td>
+			<td>Großschrift</td>
+			<td>block</td>
+			<td>nein</td>	
+		</tr>
+		<tr>
+		    <td><blockquote><p>Das ist ein Zitat hier.</p></blockquote></td>
+			<td>blockquote</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>Body... siehe body-Tag</td>
+			<td>Inhaltsbereich eines HTML _Dokuments</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>hier kommt ein <br> Zeilenumbruch</td>
+			<td>Erzwungener Zeilenumbruch an der betreffende Stelle</td>
+			<td>?</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><button>Push</button></td>
+			<td>Schaltfläche in einem Formular</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>Siehe OBEN über der Tabelle</td>
+			<td>Tabellen Überschrift</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><p>hier kommt ein Zitat <cite>Oh man ist das hier überflüssig!</cite> unfassbar oder?!</p></td>
+			<td>Zitat innerhalb eines Absatzes</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><code> void main(){ int zahl; char charakter;}</code></td>
+			<td>Quelltext-Auszug innerhlab eines Absatzes</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>col-tag</td>
+			<td>Tabellenspalte</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>colgroup-tag</td>
+			<td>Gruppe von Tabellenspalten</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>dd-tag</td>
+			<td>Beschreibung, detaillierter Inhalt zu einem dt-elementen</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><del>gelöschte Inhalt</del></td>
+			<td>gelöschter inhalt Änderungsmarkierung</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><p><dfn>definition von sachen</dfn></p></td>
+			<td>Definition innerhalb eines Absatzes</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><div>hier ist ein berecih</div></td>
+			<td>allgemeiner Bereich</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>dl-tag</td>
+			<td>Liste mit dt und dd elementen, für Definitionsliste, Dialoge usw.</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>dt-tag</td>
+			<td>Zu definierenden ausdruck in einer Defliste, Sprechername im Dialog</td>
+			<td>?</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><em>emphatisches zeug</em></td>
+			<td>emphatischer ausdruck in einer Absatzes</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>fieldset-tag siehe um die Tabelle</td>
+			<td>Gruppe von elementen in Formular</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>form-tag siehe um die Tabelle</td>
+			<td>Formular-Dialog</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><h6>Überschriften h1-h6</h6></td>
+			<td>Überschriften 1-6. Ordnung</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>head-siehe head</td>
+			<td>Kopfbereich HTML</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><hr/></td>
+			<td>trennlinie</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>html-tag</td>
+			<td>Dokumentenelement von html</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><i>kursiv</i></td>
+			<td>kursiv markierung</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><ins>eingefügte inhalt</ins></td>
+			<td>eingefügte inhalt, änderungsmarkierung</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><img />bild</td>
+			<td>eingebetete Grafik</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><input></input></td>
+			<td>Formularelement, verwendbar für diverse Typen</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>kbd-tag</td>
+			<td>darstellung eines über tastatur einzugebenden Textes</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><label>ist Label</label></td>
+			<td>Beschriftungstext, Formular</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>legend-tag siehe korrekte pos</td>
+			<td>überschrift von fieldset</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>link gehört in HEAD tag</td>
+			<td>logische Beziehungen zu anderen websiten</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>li-listenpunkt</td>
+			<td>Listenpunkt in einer ul oder ol</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>map-tag</td>
+			<td>Bereich für sensitive Grafik</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>meta-tag</td>
+			<td>Meta Angaben</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>noscript</td>
+			<td>bereich für inhalte wo was deaktiviert wird</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><object>ein Objekt</object></td>
+			<td>Eingebettete objekt</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>ol-element</td>
+			<td>ordered liste</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>optgoup-tag</td>
+			<td>Auswahl von optionsmöglcihkeiten</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><p>paragraph, Absatz</p></td>
+			<td>paragraph, Absatz</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>param-tag</td>
+			<td>parameter bei objecten</td>
+			<td>?</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><pre>preformatiert</pre></td>
+			<td>preforamtierte Text</td>
+			<td>inline</td>
+			<td>nein</td>	
+		</tr>
+		<tr>
+		    <td><q>wörtlich</q></td>
+			<td>wörtliche rede</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><samp>samp-tag</samp></td>
+			<td>Beispieltext in einem Dokumentierenden Text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>script-tag</td>
+			<td>Cript einbindung in html</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>select-tag</td>
+			<td>Auswahlliste in formular</td>
+			<td>block</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>style-tag</td>
+			<td>css einbindung</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><small>small-tag</small></td>
+			<td>kleiner darstellung von text</td>
+			<td>inline</td>
+			<td>nein</td>	
+		</tr>
+		<tr>
+		    <td><span>span-tag</span></td>
+			<td>Bereich in absatz</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><strong>strong-tag</strong></td>
+			<td>stark betonte darstellung von text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><sub>tieeeeef</sub></td>
+			<td>sematisch tiefgestellte text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><sup>hoooooooch</sup></td>
+			<td>semantisch hochgestellte Text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>table-tag ... befinden wir uns hier</td>
+			<td>Tabelle</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>tbody</td>
+			<td>Tabellenkörper</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>td-tag</td>
+			<td>Tabellenzelle</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><textarea>... hier text eingeben</textarea></td>
+			<td>mehrzeilige Texteingabe Formular</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>tfoot-tag</td>
+			<td>Fußbereich Tabelle</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>th-tag</td>
+			<td>Tabellenkopfzeile</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>thead-tag</td>
+			<td>headbereich Tabelle</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>Titel-tag siehe oben</td>
+			<td>Titel eines html Dokumentes</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>tr wie zB hier</td>
+			<td>Tabellenzeile</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><tt>ferngeschrieben</tt></td>
+			<td>Fernschreiber Text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td>ul-tag</td>
+			<td>eine unsortierte liste</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+		<tr>
+		    <td><var>variable</var></td>
+			<td>Variabler Name in einem dokumentierenden Text</td>
+			<td>inline</td>
+			<td>ja</td>	
+		</tr>
+	</tbody>
+	</table>
+	</fieldset>
+	
+	</form>
+</body>
+</html>
